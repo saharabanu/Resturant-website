@@ -14,3 +14,27 @@ var swiper = new Swiper(".home-slider", {
       prevEl: ".swiper-button-prev",
     },
   });
+var swiper = new Swiper(".food-slider", {
+    grabCursor:true,
+    loop:true,
+    centeredSlides:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+   
+    breakpoints: {
+        0: {
+          slidesPerView: 1,
+          
+        },
+        700: {
+          slidesPerView: 2,
+          
+        },
+        1000: {
+          slidesPerView: 3,
+          
+        },
+      },
+  });
