@@ -60,3 +60,15 @@ var swiper = new Swiper(".food-slider", {
         
     })
   }
+  var swiper = new Swiper(".menu-slider", {
+    grabCursor:true,
+    autoHeight:true,
+    loop:true,
+    centeredSlides:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+   
+    
+  });
